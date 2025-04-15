@@ -6,8 +6,14 @@
 //
 
 #import "ColleagueViewController.h"
+#import "Colleague.h"
 
 @interface ColleagueViewController ()
+
+@property (weak, nonatomic) IBOutlet UILabel *nameLabel;
+@property (weak, nonatomic) IBOutlet UILabel *ageLabel;
+@property (weak, nonatomic) IBOutlet UILabel *phoneLabel;
+@property (weak, nonatomic) IBOutlet UILabel *addressLabel;
 
 @end
 
@@ -16,6 +22,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    _nameLabel.text=_colleague.name;
+    _ageLabel.text = [NSString stringWithFormat:@"%ld", (int)_colleague.age];
+    _phoneLabel.text=_colleague.phone;
+    _addressLabel.text=_colleague.address;
 }
 
 /*

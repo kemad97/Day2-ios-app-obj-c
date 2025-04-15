@@ -6,10 +6,11 @@
 //
 
 #import "ViewController.h"
-
+#import "Colleague.h"
 NS_ASSUME_NONNULL_BEGIN
 
 @interface ColleagueViewController : ViewController
+@property Colleague *colleague ;
 
 @end
 

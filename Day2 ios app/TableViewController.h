@@ -6,6 +6,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Colleague.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -13,6 +14,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property  NSMutableArray *maleNames;
 @property  NSMutableArray *femaleNames;
+
 
 
 @end
