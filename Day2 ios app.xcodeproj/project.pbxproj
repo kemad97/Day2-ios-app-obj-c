@@ -17,6 +17,7 @@
 		E1B9EB152DAE2C6E00F7A39C /* Day2_ios_appTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B9EB142DAE2C6E00F7A39C /* Day2_ios_appTests.m */; };
 		E1B9EB1F2DAE2C6E00F7A39C /* Day2_ios_appUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B9EB1E2DAE2C6E00F7A39C /* Day2_ios_appUITests.m */; };
 		E1B9EB212DAE2C6E00F7A39C /* Day2_ios_appUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B9EB202DAE2C6E00F7A39C /* Day2_ios_appUITestsLaunchTests.m */; };
+		E1C1626A2DAE2EF0000798B6 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C162692DAE2EF0000798B6 /* FirstViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E13C7A602DAE45D4005D254A /* MyDelegator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyDelegator.h; sourceTree = "<group>"; };
 		E1B9EAF52DAE2C6B00F7A39C /* Day2 ios app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Day2 ios app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1B9EAF82DAE2C6B00F7A39C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E1B9EAF92DAE2C6B00F7A39C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,6 +56,8 @@
 		E1B9EB1A2DAE2C6E00F7A39C /* Day2 ios appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Day2 ios appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1B9EB1E2DAE2C6E00F7A39C /* Day2_ios_appUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Day2_ios_appUITests.m; sourceTree = "<group>"; };
 		E1B9EB202DAE2C6E00F7A39C /* Day2_ios_appUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Day2_ios_appUITestsLaunchTests.m; sourceTree = "<group>"; };
+		E1C162682DAE2EF0000798B6 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		E1C162692DAE2EF0000798B6 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +119,9 @@
 				E1B9EB062DAE2C6E00F7A39C /* LaunchScreen.storyboard */,
 				E1B9EB092DAE2C6E00F7A39C /* Info.plist */,
 				E1B9EB0A2DAE2C6E00F7A39C /* main.m */,
+				E1C162682DAE2EF0000798B6 /* FirstViewController.h */,
+				E1C162692DAE2EF0000798B6 /* FirstViewController.m */,
+				E13C7A602DAE45D4005D254A /* MyDelegator.h */,
 			);
 			path = "Day2 ios app";
 			sourceTree = "<group>";
@@ -268,6 +275,7 @@
 			files = (
 				E1B9EB002DAE2C6B00F7A39C /* ViewController.m in Sources */,
 				E1B9EAFA2DAE2C6B00F7A39C /* AppDelegate.m in Sources */,
+				E1C1626A2DAE2EF0000798B6 /* FirstViewController.m in Sources */,
 				E1B9EB0B2DAE2C6E00F7A39C /* main.m in Sources */,
 				E1B9EAFD2DAE2C6B00F7A39C /* SceneDelegate.m in Sources */,
 			);

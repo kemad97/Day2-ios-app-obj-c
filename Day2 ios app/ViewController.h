@@ -6,8 +6,8 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface ViewController : UIViewController
+#import "MyDelegator.h"
+@interface ViewController : UIViewController <MyDelegator>
 
 
 @end
