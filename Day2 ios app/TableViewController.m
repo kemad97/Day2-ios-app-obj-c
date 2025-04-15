@@ -15,12 +15,29 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.maleNames = @[@"kerolos", @"7zn", @"ewida", @"Joe"];
-    self.femaleNames = @[@"Sarah", @"Aya", @"Arwa",@"bsma"];
+    
+    self.maleNames = [[NSMutableArray alloc] init];
 
-    self.title = @"Colleagues";
+//
+//    self.maleNames = @[@"kerolos", @"7zn", @"ewida", @"Joe"];
+    
+    self.maleNames = [[NSMutableArray alloc] init];
+    [self.maleNames addObject:@"kerolos"];
+    [self.maleNames addObject:@"7zn"];
+    [self.maleNames addObject:@"ewida"];
+    [self.maleNames addObject:@"Joe"];
+
+    self.femaleNames = [[NSMutableArray alloc] init];
+    [self.femaleNames addObject:@"Sarah"];
+    [self.femaleNames addObject:@"Aya"];
+    [self.femaleNames addObject:@"Arwa"];
+
+    
     
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"cell"];
+    
+    self.navigationItem.rightBarButtonItem = self.editButtonItem;
+
 
 
     
@@ -47,7 +64,7 @@ switch(section)
         break;
         
     case 1:
-        return _maleNames.count;
+        return _femaleNames.count;
         break;
     default:
         return 0;
@@ -92,6 +109,27 @@ UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell" for
             
     }
     return cell;
+}
+
+- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    return YES;
+}
+
+- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    
+    if (editingStyle == UITableViewCellEditingStyleDelete) {
+            if (indexPath.section == 0) {
+                [self.maleNames removeObjectAtIndex:indexPath.row];
+            } else {
+                [self.femaleNames removeObjectAtIndex:indexPath.row];
+            }
+            
+            [tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationFade];
+        }
+
+    
 }
 
 /*
