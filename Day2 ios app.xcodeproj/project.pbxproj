@@ -10,6 +10,8 @@
 		E13C7A632DAE4A63005D254A /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E13C7A622DAE4A63005D254A /* TableViewController.m */; };
 		E13C7A662DAE5D71005D254A /* ColleagueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E13C7A652DAE5D71005D254A /* ColleagueViewController.m */; };
 		E13C7A692DAE6390005D254A /* Colleague.m in Sources */ = {isa = PBXBuildFile; fileRef = E13C7A682DAE6390005D254A /* Colleague.m */; };
+		E1419B872DAFA500002C9811 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1419B862DAFA500002C9811 /* RegisterViewController.m */; };
+		E1419B8A2DAFA50F002C9811 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1419B892DAFA50F002C9811 /* LoginViewController.m */; };
 		E1B9EAFA2DAE2C6B00F7A39C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B9EAF92DAE2C6B00F7A39C /* AppDelegate.m */; };
 		E1B9EAFD2DAE2C6B00F7A39C /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B9EAFC2DAE2C6B00F7A39C /* SceneDelegate.m */; };
 		E1B9EB002DAE2C6B00F7A39C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B9EAFF2DAE2C6B00F7A39C /* ViewController.m */; };
@@ -46,6 +48,10 @@
 		E13C7A652DAE5D71005D254A /* ColleagueViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColleagueViewController.m; sourceTree = "<group>"; };
 		E13C7A672DAE6390005D254A /* Colleague.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Colleague.h; sourceTree = "<group>"; };
 		E13C7A682DAE6390005D254A /* Colleague.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Colleague.m; sourceTree = "<group>"; };
+		E1419B852DAFA500002C9811 /* RegisterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		E1419B862DAFA500002C9811 /* RegisterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		E1419B882DAFA50F002C9811 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		E1419B892DAFA50F002C9811 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		E1B9EAF52DAE2C6B00F7A39C /* Day2 ios app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Day2 ios app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1B9EAF82DAE2C6B00F7A39C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E1B9EAF92DAE2C6B00F7A39C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -130,6 +136,10 @@
 				E13C7A652DAE5D71005D254A /* ColleagueViewController.m */,
 				E13C7A672DAE6390005D254A /* Colleague.h */,
 				E13C7A682DAE6390005D254A /* Colleague.m */,
+				E1419B852DAFA500002C9811 /* RegisterViewController.h */,
+				E1419B862DAFA500002C9811 /* RegisterViewController.m */,
+				E1419B882DAFA50F002C9811 /* LoginViewController.h */,
+				E1419B892DAFA50F002C9811 /* LoginViewController.m */,
 			);
 			path = "Day2 ios app";
 			sourceTree = "<group>";
@@ -286,8 +296,10 @@
 				E1B9EB002DAE2C6B00F7A39C /* ViewController.m in Sources */,
 				E1B9EAFA2DAE2C6B00F7A39C /* AppDelegate.m in Sources */,
 				E1B9EB0B2DAE2C6E00F7A39C /* main.m in Sources */,
+				E1419B8A2DAFA50F002C9811 /* LoginViewController.m in Sources */,
 				E13C7A632DAE4A63005D254A /* TableViewController.m in Sources */,
 				E1B9EAFD2DAE2C6B00F7A39C /* SceneDelegate.m in Sources */,
+				E1419B872DAFA500002C9811 /* RegisterViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
